@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="837bab1805d1485b8f3e4520aa3ade45" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="QLTVModel.ChiTietNhap" Width="1.5" PointX="3" PointY="3.25" />
+        <EntityTypeShape EntityType="QLTVModel.ChiTietPhieuMuon" Width="1.5" PointX="10.5" PointY="6.25" />
+        <EntityTypeShape EntityType="QLTVModel.ChiTietPhieuTra" Width="1.5" PointX="10.5" PointY="3" />
+        <EntityTypeShape EntityType="QLTVModel.ChiTietThanhLy" Width="1.5" PointX="3" PointY="6.25" />
+        <EntityTypeShape EntityType="QLTVModel.Danhgiathuvien" Width="1.5" PointX="6" PointY="27.625" />
+        <EntityTypeShape EntityType="QLTVModel.DocGia" Width="1.5" PointX="3.75" PointY="21" />
+        <EntityTypeShape EntityType="QLTVModel.DoiTac" Width="1.5" PointX="0.75" PointY="5.625" />
+        <EntityTypeShape EntityType="QLTVModel.KeSach" Width="1.5" PointX="6" PointY="12.625" />
+        <EntityTypeShape EntityType="QLTVModel.Kho" Width="1.5" PointX="6" PointY="1.75" />
+        <EntityTypeShape EntityType="QLTVModel.Khu" Width="1.5" PointX="3.75" PointY="12.875" />
+        <EntityTypeShape EntityType="QLTVModel.LoaiNV" Width="1.5" PointX="3.75" PointY="17.625" />
+        <EntityTypeShape EntityType="QLTVModel.NhanVien" Width="1.5" PointX="6" PointY="16.5" />
+        <EntityTypeShape EntityType="QLTVModel.PhieuMuon" Width="1.5" PointX="8.25" PointY="18.75" />
+        <EntityTypeShape EntityType="QLTVModel.PhieuTra" Width="1.5" PointX="8.25" PointY="10.375" />
+        <EntityTypeShape EntityType="QLTVModel.Sach" Width="1.5" PointX="8.25" PointY="5.875" />
+        <EntityTypeShape EntityType="QLTVModel.TacGia" Width="1.5" PointX="3.75" PointY="9.25" />
+        <EntityTypeShape EntityType="QLTVModel.TaiKhoanDG" Width="1.5" PointX="6" PointY="25.125" />
+        <EntityTypeShape EntityType="QLTVModel.TaiKhoanNV" Width="1.5" PointX="8.25" PointY="15.5" />
+        <EntityTypeShape EntityType="QLTVModel.TheDocGia" Width="1.5" PointX="6" PointY="21" />
+        <EntityTypeShape EntityType="QLTVModel.TheLoai" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="QLTVModel.TuaSach" Width="1.5" PointX="6" PointY="5.125" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietNhap_DoiTac" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietSachNhap_Sach" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietPhieuMuon_PhieuMuon" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietPhieuMuon_Sach" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietPhieuTra_PhieuMuon" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietPhieuTra_PhieuTra" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietPhieuTra_Sach" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietThanhLy_DoiTac" />
+        <AssociationConnector Association="QLTVModel.FK_ChiTietThanhLy_Sach" />
+        <AssociationConnector Association="QLTVModel.FK_Danhgiathuvien_DocGia" />
+        <AssociationConnector Association="QLTVModel.FK_TaiKhoan_DocGia" />
+        <AssociationConnector Association="QLTVModel.FK_TheDocGia_DocGia" />
+        <AssociationConnector Association="QLTVModel.FK_TuaSach_DoiTac" />
+        <AssociationConnector Association="QLTVModel.FK_KeSach_Khu" />
+        <AssociationConnector Association="QLTVModel.FK_NhanVien_VaiTro" />
+        <AssociationConnector Association="QLTVModel.FK_PhieuMuon_NhanVien" />
+        <AssociationConnector Association="QLTVModel.FK_PhieuTra_NhanVien" />
+        <AssociationConnector Association="QLTVModel.FK_TaiKhoanNV_NhanVien" />
+        <AssociationConnector Association="QLTVModel.FK_PhieuMuon_TheDocGia" />
+        <AssociationConnector Association="QLTVModel.FK_PhieuTra_TheDocGia" />
+        <AssociationConnector Association="QLTVModel.FK_Sach_TuaSach" />
+        <AssociationConnector Association="QLTVModel.FK_TuaSach_TacGia" />
+        <AssociationConnector Association="QLTVModel.FK_TuaSach_TheLoai" />
+        <AssociationConnector Association="QLTVModel.SachTrenKe" />
+        <AssociationConnector Association="QLTVModel.SachTrongKho" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
